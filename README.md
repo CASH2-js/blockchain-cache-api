@@ -1,11 +1,11 @@
-# TurtlePay® Blockchain Cache API
+# Blockchain Cache API
 
 ## Setup
 
 1) Clone this repository to wherever you'd like the API to run:
 
 ```bash
-git clone https://github.com/TurtlePay/blockchain-cache-api
+git clone https://github.com/cash2-js/blockchain-cache-api
 ```
 
 2) Install the required Node.js modules
