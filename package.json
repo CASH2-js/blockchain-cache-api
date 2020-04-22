@@ -1,7 +1,7 @@
 {
   "name": "blockchain-cache-api",
   "version": "0.0.18",
-  "description": "TurtlePay: Blockchain Cache API",
+  "description": "Blockchain Cache API",
   "main": "index.js",
   "scripts": {
     "test": "standard",
@@ -9,17 +9,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TurtlePay/blockchain-cache-api.git"
+    "url": "git+https://github.com/cash2-js/blockchain-cache-api.git"
   },
   "keywords": [
     "TurtlePay"
   ],
-  "author": "TurtlePay Development Team",
+  "author": "TurtlePay Development Team / wkibbler",
   "license": "AGPL-3.0",
   "bugs": {
-    "url": "https://github.com/TurtlePay/blockchain-cache-api/issues"
+    "url": "https://github.com/cash2-js/blockchain-cache-api/issues"
   },
-  "homepage": "https://github.com/TurtlePay/blockchain-cache-api#readme",
+  "homepage": "https://github.com/cash2-js/blockchain-cache-api#readme",
   "devDependencies": {
     "standard": "^13.0.1"
   },
@@ -27,6 +27,7 @@
     "amqplib": "^0.5.3",
     "big-integer": "^1.6.48",
     "body-parser": "^1.19.0",
+    "cash2-utils": "git+https://github.com/cash2-js/cash2-utils.git",
     "colors": "^1.4.0",
     "compression": "^1.7.4",
     "dotenv": "^8.2.0",
@@ -37,7 +38,6 @@
     "random-number-csprng": "^1.0.2",
     "redis": "^2.8.0",
     "semver": "^6.3.0",
-    "turtlecoin-utils": "^1.0.20",
     "uuid": "^3.4.0"
   }
 }

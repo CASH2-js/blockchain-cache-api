@@ -4,8 +4,8 @@
   "corsHeader": "*",
   "coinDecimals": 2,
   "defaultMixins": 3,
-  "emissionSpeed": 25,
-  "maxSupply": 100000000000000,
+  "emissionSpeed": 24,
+  "maxSupply": 15000000000000000,
   "queues": {
     "relayAgent": "request.network"
   },
@@ -18,5 +18,5 @@
   "useNodeMonitor": false,
   "usePoolMonitor": false,
   "useRedisCache": false,
-  "checkPointsDomain": "checkpoints.turtlecoin.dev"
+  "checkPointsDomain": false
 }

@@ -8,7 +8,7 @@ require('dotenv').config()
 const BigInteger = require('big-integer')
 const BodyParser = require('body-parser')
 const Compression = require('compression')
-const CoinUtils = new (require('turtlecoin-utils').CryptoNote)()
+const CoinUtils = new (require('cash2-utils').CryptoNote)()
 const Config = require('./config.json')
 const DatabaseBackend = require('./lib/databaseBackend')
 const DNS = require('dns')
@@ -19,7 +19,7 @@ const isHex = require('is-hex')
 const Logger = require('./lib/logger')
 const RabbitMQ = require('./lib/rabbit')
 const semver = require('semver')
-const Transaction = require('turtlecoin-utils').Transaction
+const Transaction = require('cash2-utils').Transaction
 const util = require('util')
 
 /* Load in our environment variables */
